@@ -21,7 +21,7 @@
 		<spring.version>5.3.34</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.235.77.143:8500/</sonar.host.url>
+		<sonar.host.url>http://13.232.188.2:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Raja@123</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://65.0.108.171:8081/repository/raja-release/</url>
+	      <url>http://13.126.130.23:8081/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http:http://65.0.108.171:8081/repository/raja-snapshot/</url>
+	      <url>http://13.126.130.23:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
